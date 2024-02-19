@@ -1,10 +1,10 @@
-package entry // import "berty.tech/go-ipfs-log/entry"
+package entry // import "github.com/thusharprakash/go-ipfs-log/entry"
 
 import (
 	"bytes"
 	"sort"
 
-	"berty.tech/go-ipfs-log/iface"
+	"github.com/thusharprakash/go-ipfs-log/iface"
 )
 
 // Difference gets the list of values not present in both entries sets.

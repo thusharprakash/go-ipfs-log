@@ -6,17 +6,17 @@ import (
 	"math"
 	"testing"
 
-	"berty.tech/go-ipfs-log/enc"
-	"berty.tech/go-ipfs-log/io/cbor"
+	"github.com/thusharprakash/go-ipfs-log/enc"
+	"github.com/thusharprakash/go-ipfs-log/io/cbor"
 
-	ipfslog "berty.tech/go-ipfs-log"
-	"berty.tech/go-ipfs-log/entry"
-	idp "berty.tech/go-ipfs-log/identityprovider"
-	"berty.tech/go-ipfs-log/iface"
-	"berty.tech/go-ipfs-log/keystore"
 	dssync "github.com/ipfs/go-datastore/sync"
 	mocknet "github.com/libp2p/go-libp2p/p2p/net/mock"
 	"github.com/stretchr/testify/require"
+	ipfslog "github.com/thusharprakash/go-ipfs-log"
+	"github.com/thusharprakash/go-ipfs-log/entry"
+	idp "github.com/thusharprakash/go-ipfs-log/identityprovider"
+	"github.com/thusharprakash/go-ipfs-log/iface"
+	"github.com/thusharprakash/go-ipfs-log/keystore"
 )
 
 func TestLogAppend(t *testing.T) {

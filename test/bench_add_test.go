@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"testing"
 
-	ipfslog "berty.tech/go-ipfs-log"
-	idp "berty.tech/go-ipfs-log/identityprovider"
-	"berty.tech/go-ipfs-log/keystore"
 	dssync "github.com/ipfs/go-datastore/sync"
 	mocknet "github.com/libp2p/go-libp2p/p2p/net/mock"
 	"github.com/stretchr/testify/require"
+	ipfslog "github.com/thusharprakash/go-ipfs-log"
+	idp "github.com/thusharprakash/go-ipfs-log/identityprovider"
+	"github.com/thusharprakash/go-ipfs-log/keystore"
 )
 
 func BenchmarkAdd(b *testing.B) {

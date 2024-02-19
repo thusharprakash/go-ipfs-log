@@ -1,5 +1,5 @@
 // Package keystore defines a local key manager for OrbitDB and IPFS Log.
-package keystore // import "berty.tech/go-ipfs-log/keystore"
+package keystore // import "github.com/thusharprakash/go-ipfs-log/keystore"
 
 import (
 	"context"
@@ -10,7 +10,7 @@ import (
 	"github.com/ipfs/go-datastore"
 	"github.com/libp2p/go-libp2p/core/crypto"
 
-	"berty.tech/go-ipfs-log/errmsg"
+	"github.com/thusharprakash/go-ipfs-log/errmsg"
 )
 
 type Keystore struct {

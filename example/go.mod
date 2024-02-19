@@ -1,9 +1,9 @@
-module berty.tech/go-ipfs-log/example
+module github.com/thusharprakash/go-ipfs-log/example
 
 go 1.18
 
 require (
-	berty.tech/go-ipfs-log v0.0.0
+	github.com/thusharprakash/go-ipfs-log v0.0.0
 	github.com/ipfs/go-datastore v0.6.0
 	github.com/ipfs/kubo v0.19.0
 	github.com/libp2p/go-libp2p v0.27.8
@@ -196,4 +196,4 @@ require (
 	nhooyr.io/websocket v1.8.7 // indirect
 )
 
-replace berty.tech/go-ipfs-log => ../
+replace github.com/thusharprakash/go-ipfs-log => ../

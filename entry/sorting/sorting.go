@@ -7,8 +7,8 @@ import (
 	"sort"
 	"strings"
 
-	"berty.tech/go-ipfs-log/errmsg"
-	"berty.tech/go-ipfs-log/iface"
+	"github.com/thusharprakash/go-ipfs-log/errmsg"
+	"github.com/thusharprakash/go-ipfs-log/iface"
 )
 
 func SortByClocks(a, b iface.IPFSLogEntry, resolveConflict func(a iface.IPFSLogEntry, b iface.IPFSLogEntry) (int, error)) (int, error) {

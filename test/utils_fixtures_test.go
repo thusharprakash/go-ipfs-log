@@ -5,8 +5,8 @@ import (
 
 	"github.com/ipfs/go-cid"
 
-	"berty.tech/go-ipfs-log/entry"
-	"berty.tech/go-ipfs-log/identityprovider"
+	"github.com/thusharprakash/go-ipfs-log/entry"
+	"github.com/thusharprakash/go-ipfs-log/identityprovider"
 )
 
 func getEntriesV0Fixtures(t *testing.T) map[string]*entry.Entry {

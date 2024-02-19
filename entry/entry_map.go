@@ -3,7 +3,7 @@ package entry
 import (
 	"sync"
 
-	"berty.tech/go-ipfs-log/iface"
+	"github.com/thusharprakash/go-ipfs-log/iface"
 )
 
 // OrderedMap is an ordered map of entries.

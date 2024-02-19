@@ -21,8 +21,8 @@
     <img src="https://badge.fury.io/gh/berty%2Fgo-ipfs-log.svg"
          alt="GitHub version">
   </a>
-  <a href="https://godoc.org/berty.tech/go-ipfs-log">
-    <img src="https://godoc.org/berty.tech/go-ipfs-log?status.svg"
+  <a href="https://godoc.org/github.com/thusharprakash/go-ipfs-log">
+    <img src="https://godoc.org/github.com/thusharprakash/go-ipfs-log?status.svg"
          alt="GoDoc">
   </a>
 </p>
@@ -40,7 +40,7 @@ The majority of this code was vastly derived from the JavaScript's [ipfs-log](ht
 
 ## Usage
 
-See the `example` package on [GoDoc](https://godoc.org/berty.tech/go-ipfs-log/example#example-package--LogAppend)
+See the `example` package on [GoDoc](https://godoc.org/github.com/thusharprakash/go-ipfs-log/example#example-package--LogAppend)
 
 ## Licensing
 

@@ -1,4 +1,4 @@
-package entry // import "berty.tech/go-ipfs-log/entry"
+package entry // import "github.com/thusharprakash/go-ipfs-log/entry"
 
 import (
 	"context"
@@ -6,7 +6,7 @@ import (
 	"github.com/ipfs/go-cid"
 	core_iface "github.com/ipfs/interface-go-ipfs-core"
 
-	"berty.tech/go-ipfs-log/iface"
+	"github.com/thusharprakash/go-ipfs-log/iface"
 )
 
 type FetchOptions = iface.FetchOptions

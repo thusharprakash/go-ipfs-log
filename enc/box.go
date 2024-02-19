@@ -4,7 +4,7 @@ import (
 	"crypto/rand"
 	"fmt"
 
-	"berty.tech/go-ipfs-log/errmsg"
+	"github.com/thusharprakash/go-ipfs-log/errmsg"
 	"golang.org/x/crypto/nacl/secretbox"
 	"golang.org/x/crypto/sha3"
 )

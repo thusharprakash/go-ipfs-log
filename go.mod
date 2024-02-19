@@ -1,4 +1,4 @@
-module berty.tech/go-ipfs-log
+module github.com/thusharprakash/go-ipfs-log
 
 go 1.19
 

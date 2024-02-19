@@ -1,4 +1,4 @@
-package keystore // import "berty.tech/go-ipfs-log/keystore"
+package keystore // import "github.com/thusharprakash/go-ipfs-log/keystore"
 
 import (
 	"context"

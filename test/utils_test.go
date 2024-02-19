@@ -5,7 +5,6 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"berty.tech/go-ipfs-log/iface"
 	"github.com/ipfs/go-datastore"
 	dssync "github.com/ipfs/go-datastore/sync"
 	core_iface "github.com/ipfs/interface-go-ipfs-core"
@@ -16,6 +15,7 @@ import (
 	ipfs_repo "github.com/ipfs/kubo/repo"
 	mocknet "github.com/libp2p/go-libp2p/p2p/net/mock"
 	"github.com/stretchr/testify/require"
+	"github.com/thusharprakash/go-ipfs-log/iface"
 )
 
 func newRepo() (ipfs_repo.Repo, error) {

@@ -3,12 +3,12 @@ package io
 import (
 	"context"
 
-	"berty.tech/go-ipfs-log/entry"
-	"berty.tech/go-ipfs-log/iface"
-	"berty.tech/go-ipfs-log/io/cbor"
 	"github.com/ipfs/go-cid"
 	format "github.com/ipfs/go-ipld-format"
 	core_iface "github.com/ipfs/interface-go-ipfs-core"
+	"github.com/thusharprakash/go-ipfs-log/entry"
+	"github.com/thusharprakash/go-ipfs-log/iface"
+	"github.com/thusharprakash/go-ipfs-log/io/cbor"
 )
 
 type CBOROptions = cbor.Options

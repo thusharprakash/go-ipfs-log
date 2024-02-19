@@ -1,4 +1,4 @@
-package ipfslog // import "berty.tech/go-ipfs-log"
+package ipfslog // import "github.com/thusharprakash/go-ipfs-log"
 
 import (
 	"context"
@@ -7,15 +7,15 @@ import (
 
 	core_iface "github.com/ipfs/interface-go-ipfs-core"
 
-	"berty.tech/go-ipfs-log/iface"
+	"github.com/thusharprakash/go-ipfs-log/iface"
 
-	"berty.tech/go-ipfs-log/entry/sorting"
+	"github.com/thusharprakash/go-ipfs-log/entry/sorting"
 
 	"github.com/ipfs/go-cid"
 
-	"berty.tech/go-ipfs-log/entry"
-	"berty.tech/go-ipfs-log/errmsg"
-	// "berty.tech/go-ipfs-log/io"
+	"github.com/thusharprakash/go-ipfs-log/entry"
+	"github.com/thusharprakash/go-ipfs-log/errmsg"
+	// "github.com/thusharprakash/go-ipfs-log/io"
 )
 
 type FetchOptions struct {

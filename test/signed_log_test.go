@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"testing"
 
-	ipfslog "berty.tech/go-ipfs-log"
-	"berty.tech/go-ipfs-log/accesscontroller"
-	"berty.tech/go-ipfs-log/errmsg"
-	idp "berty.tech/go-ipfs-log/identityprovider"
-	ks "berty.tech/go-ipfs-log/keystore"
 	dssync "github.com/ipfs/go-datastore/sync"
 	mocknet "github.com/libp2p/go-libp2p/p2p/net/mock"
 	"github.com/stretchr/testify/require"
+	ipfslog "github.com/thusharprakash/go-ipfs-log"
+	"github.com/thusharprakash/go-ipfs-log/accesscontroller"
+	"github.com/thusharprakash/go-ipfs-log/errmsg"
+	idp "github.com/thusharprakash/go-ipfs-log/identityprovider"
+	ks "github.com/thusharprakash/go-ipfs-log/keystore"
 )
 
 type DenyAll struct {

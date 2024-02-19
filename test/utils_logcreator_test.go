@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	ipfslog "berty.tech/go-ipfs-log"
-	idp "berty.tech/go-ipfs-log/identityprovider"
 	core_iface "github.com/ipfs/interface-go-ipfs-core"
+	ipfslog "github.com/thusharprakash/go-ipfs-log"
+	idp "github.com/thusharprakash/go-ipfs-log/identityprovider"
 )
 
 type CreatedLog struct {

@@ -1,8 +1,8 @@
 // Package accesscontroller defines a default access controller for IPFS Log, it won't actually check anything.
-package accesscontroller // import "berty.tech/go-ipfs-log/accesscontroller"
+package accesscontroller // import "github.com/thusharprakash/go-ipfs-log/accesscontroller"
 
 import (
-	"berty.tech/go-ipfs-log/identityprovider"
+	"github.com/thusharprakash/go-ipfs-log/identityprovider"
 )
 
 type Default struct {

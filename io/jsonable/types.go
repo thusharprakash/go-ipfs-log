@@ -5,9 +5,9 @@ import (
 
 	"github.com/ipfs/go-cid"
 
-	"berty.tech/go-ipfs-log/errmsg"
-	"berty.tech/go-ipfs-log/identityprovider"
-	"berty.tech/go-ipfs-log/iface"
+	"github.com/thusharprakash/go-ipfs-log/errmsg"
+	"github.com/thusharprakash/go-ipfs-log/identityprovider"
+	"github.com/thusharprakash/go-ipfs-log/iface"
 )
 
 // Entry CBOR representable version of Entry

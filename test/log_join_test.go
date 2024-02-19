@@ -6,16 +6,16 @@ import (
 	"reflect"
 	"testing"
 
-	ipfslog "berty.tech/go-ipfs-log"
-	"berty.tech/go-ipfs-log/entry"
-	"berty.tech/go-ipfs-log/errmsg"
-	idp "berty.tech/go-ipfs-log/identityprovider"
-	"berty.tech/go-ipfs-log/iface"
-	ks "berty.tech/go-ipfs-log/keystore"
 	cid "github.com/ipfs/go-cid"
 	dssync "github.com/ipfs/go-datastore/sync"
 	mocknet "github.com/libp2p/go-libp2p/p2p/net/mock"
 	"github.com/stretchr/testify/require"
+	ipfslog "github.com/thusharprakash/go-ipfs-log"
+	"github.com/thusharprakash/go-ipfs-log/entry"
+	"github.com/thusharprakash/go-ipfs-log/errmsg"
+	idp "github.com/thusharprakash/go-ipfs-log/identityprovider"
+	"github.com/thusharprakash/go-ipfs-log/iface"
+	ks "github.com/thusharprakash/go-ipfs-log/keystore"
 )
 
 func TestLogJoin(t *testing.T) {

@@ -1,10 +1,10 @@
-package entry // import "berty.tech/go-ipfs-log/entry"
+package entry // import "github.com/thusharprakash/go-ipfs-log/entry"
 
 import (
 	"bytes"
 	"math"
 
-	"berty.tech/go-ipfs-log/iface"
+	"github.com/thusharprakash/go-ipfs-log/iface"
 )
 
 type LamportClock struct {
