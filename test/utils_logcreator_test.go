@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	core_iface "github.com/ipfs/interface-go-ipfs-core"
+	core_iface "github.com/ipfs/kubo/core/coreiface"
 	ipfslog "github.com/thusharprakash/go-ipfs-log"
 	idp "github.com/thusharprakash/go-ipfs-log/identityprovider"
 )

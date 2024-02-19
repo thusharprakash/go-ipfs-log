@@ -8,7 +8,7 @@ import (
 	"sort"
 
 	"github.com/ipfs/go-cid"
-	core_iface "github.com/ipfs/interface-go-ipfs-core"
+	core_iface "github.com/ipfs/kubo/core/coreiface"
 	"github.com/multiformats/go-multibase"
 
 	"github.com/thusharprakash/go-ipfs-log/errmsg"

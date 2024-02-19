@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/ipfs/go-cid"
-	core_iface "github.com/ipfs/interface-go-ipfs-core"
+	core_iface "github.com/ipfs/kubo/core/coreiface"
 	"github.com/thusharprakash/go-ipfs-log/identityprovider"
 	"github.com/thusharprakash/go-ipfs-log/iface"
 	"github.com/thusharprakash/go-ipfs-log/io/cbor"

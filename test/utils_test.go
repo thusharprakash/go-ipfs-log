@@ -7,10 +7,10 @@ import (
 
 	"github.com/ipfs/go-datastore"
 	dssync "github.com/ipfs/go-datastore/sync"
-	core_iface "github.com/ipfs/interface-go-ipfs-core"
 	config "github.com/ipfs/kubo/config"
 	ipfsCore "github.com/ipfs/kubo/core"
 	"github.com/ipfs/kubo/core/coreapi"
+	core_iface "github.com/ipfs/kubo/core/coreiface"
 	mock "github.com/ipfs/kubo/core/mock"
 	ipfs_repo "github.com/ipfs/kubo/repo"
 	mocknet "github.com/libp2p/go-libp2p/p2p/net/mock"

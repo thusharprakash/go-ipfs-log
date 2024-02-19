@@ -7,7 +7,7 @@ import (
 	"github.com/ipfs/go-cid"
 	format "github.com/ipfs/go-ipld-format"
 	dag "github.com/ipfs/go-merkledag"
-	core_iface "github.com/ipfs/interface-go-ipfs-core"
+	core_iface "github.com/ipfs/kubo/core/coreiface"
 
 	"github.com/thusharprakash/go-ipfs-log/errmsg"
 	idp "github.com/thusharprakash/go-ipfs-log/identityprovider"

@@ -6,7 +6,7 @@ import (
 
 	"github.com/ipfs/go-cid"
 	format "github.com/ipfs/go-ipld-format"
-	core_iface "github.com/ipfs/interface-go-ipfs-core"
+	core_iface "github.com/ipfs/kubo/core/coreiface"
 
 	"github.com/thusharprakash/go-ipfs-log/accesscontroller"
 	"github.com/thusharprakash/go-ipfs-log/identityprovider"

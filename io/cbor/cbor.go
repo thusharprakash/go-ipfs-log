@@ -12,8 +12,7 @@ import (
 	"github.com/ipfs/go-cid"
 	cbornode "github.com/ipfs/go-ipld-cbor"
 	format "github.com/ipfs/go-ipld-format"
-	core_iface "github.com/ipfs/interface-go-ipfs-core"
-	"github.com/ipfs/interface-go-ipfs-core/path"
+	core_iface "github.com/ipfs/kubo/core/coreiface"
 	ic "github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/polydawn/refmt/obj/atlas"
 
@@ -261,7 +260,7 @@ func (i *IOCbor) Write(ctx context.Context, ipfs core_iface.CoreAPI, obj interfa
 	}
 
 	if opts.Pin {
-		if err = ipfs.Pin().Add(ctx, path.IpfsPath(cborNode.Cid())); err != nil {
+		if err = ipfs.Pin().Add(ctx, core_iface.IpfsPath(cborNode.Cid())); err != nil {
 			return cid.Undef, errmsg.ErrIPFSOperationFailed.Wrap(err)
 		}
 	}
