@@ -7,11 +7,11 @@ import (
 	"testing"
 
 	dssync "github.com/ipfs/go-datastore/sync"
-	mocknet "github.com/libp2p/go-libp2p/p2p/net/mock"
 	"github.com/stretchr/testify/require"
 	ipfslog "github.com/thusharprakash/go-ipfs-log"
 	idp "github.com/thusharprakash/go-ipfs-log/identityprovider"
 	"github.com/thusharprakash/go-ipfs-log/keystore"
+	mocknet "github.com/thusharprakash/go-libp2p/p2p/net/mock"
 )
 
 func BenchmarkJoin(b *testing.B) {

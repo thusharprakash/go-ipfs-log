@@ -12,12 +12,12 @@ import (
 	"github.com/ipfs/kubo/core/coreapi"
 	ipfs_libp2p "github.com/ipfs/kubo/core/node/libp2p"
 	ipfs_repo "github.com/ipfs/kubo/repo"
-	"github.com/libp2p/go-libp2p"
-	"github.com/libp2p/go-libp2p/core/host"
-	"github.com/libp2p/go-libp2p/core/peer"
-	pstore "github.com/libp2p/go-libp2p/core/peerstore"
 	idp "github.com/thusharprakash/go-ipfs-log/identityprovider"
 	"github.com/thusharprakash/go-ipfs-log/keystore"
+	"github.com/thusharprakash/go-libp2p"
+	"github.com/thusharprakash/go-libp2p/core/host"
+	"github.com/thusharprakash/go-libp2p/core/peer"
+	pstore "github.com/thusharprakash/go-libp2p/core/peerstore"
 
 	log "github.com/thusharprakash/go-ipfs-log"
 )

@@ -14,9 +14,9 @@ import (
 
 	cid "github.com/ipfs/go-cid"
 	dssync "github.com/ipfs/go-datastore/sync"
-	mocknet "github.com/libp2p/go-libp2p/p2p/net/mock"
 	"github.com/stretchr/testify/require"
 	ks "github.com/thusharprakash/go-ipfs-log/keystore"
+	mocknet "github.com/thusharprakash/go-libp2p/p2p/net/mock"
 )
 
 func TestEntry(t *testing.T) {

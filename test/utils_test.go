@@ -13,9 +13,9 @@ import (
 	core_iface "github.com/ipfs/kubo/core/coreiface"
 	mock "github.com/ipfs/kubo/core/mock"
 	ipfs_repo "github.com/ipfs/kubo/repo"
-	mocknet "github.com/libp2p/go-libp2p/p2p/net/mock"
 	"github.com/stretchr/testify/require"
 	"github.com/thusharprakash/go-ipfs-log/iface"
+	mocknet "github.com/thusharprakash/go-libp2p/p2p/net/mock"
 )
 
 func newRepo() (ipfs_repo.Repo, error) {

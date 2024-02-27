@@ -13,8 +13,8 @@ import (
 	cbornode "github.com/ipfs/go-ipld-cbor"
 	format "github.com/ipfs/go-ipld-format"
 	core_iface "github.com/ipfs/kubo/core/coreiface"
-	ic "github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/polydawn/refmt/obj/atlas"
+	ic "github.com/thusharprakash/go-libp2p/core/crypto"
 
 	path "github.com/ipfs/boxo/path"
 	"github.com/thusharprakash/go-ipfs-log/errmsg"

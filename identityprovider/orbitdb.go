@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/hex"
 
-	"github.com/libp2p/go-libp2p/core/crypto"
+	"github.com/thusharprakash/go-libp2p/core/crypto"
 
 	"github.com/thusharprakash/go-ipfs-log/errmsg"
 	"github.com/thusharprakash/go-ipfs-log/keystore"

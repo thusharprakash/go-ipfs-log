@@ -2,7 +2,7 @@
 package identityprovider // import "github.com/thusharprakash/go-ipfs-log/identityprovider"
 
 import (
-	ic "github.com/libp2p/go-libp2p/core/crypto"
+	ic "github.com/thusharprakash/go-libp2p/core/crypto"
 )
 
 type IdentitySignature struct {
